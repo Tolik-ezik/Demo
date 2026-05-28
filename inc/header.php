@@ -30,19 +30,19 @@ if (isset($_SESSION['login'])) {
     <link rel="stylesheet" href="/demo/assets/style/style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid px-3">
             <a class="navbar-brand d-flex align-items-center" href="/demo/">
-                <img src="/demo/assets/img/logo.png" alt="Нарушениям.Нет" height="40" class="me-2">
+                <img src="/demo/assets/img/logo.png"  alt="Нарушениям.Нет" height="40" class="me-2">
                 Нарушениям.Нет
             </a>
-
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <?php echo $menu; ?>
@@ -51,5 +51,4 @@ if (isset($_SESSION['login'])) {
         </div>
     </nav>
 
-
-    <div class="container mt-4">
+    <div class="container mt-4 flex-grow-1">

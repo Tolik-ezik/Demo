@@ -1,4 +1,52 @@
-/* Базовые стили */
+@font-face {
+    font-family: 'NavbarFont';
+    src: url('/demo/assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FooterFont';
+    src: url('/demo/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BodyFont';
+    src: url('/demo/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    font-family: 'NavbarFont', sans-serif;
+}
+
+footer {
+    font-family: 'FooterFont', sans-serif;
+}
+
+body,
+.container,
+.form-control,
+.btn,
+.card,
+h1, h2, h3, h4, h5, h6,
+p,
+label {
+    font-family: 'BodyFont', sans-serif ;
+}
+
+.navbar,
+footer {
+    font-family: inherit ;
+}
+
 body {
     background-color: #f8f9fa;
 }
