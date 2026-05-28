@@ -1,0 +1,29 @@
+/* Базовые стили */
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-dark {
+    background-color: #212529;
+}
+
+.cards {
+    margin-top: 20px;
+}
+
+.form-control {
+    border-radius: 50px;
+}
+
+.btn-success {
+    border-radius: 50px;
+}
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
